@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('assets/Roboto-Medium.ttf');
+}
+
+/* svg background */
+
+body {
+    background-image: url("assets/bg.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: rgb(50, 50, 50);
+    color: rgb(200, 200, 200);
+    padding: 4px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid rgb(20, 20, 20);
+    font-family: "Roboto", sans-serif;
+}
+
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+/* About me box */
+
+.about {
+    margin-top: 100px;
+    position: relative;
+    background-color: rgba(0,0,0,0.25); 
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    margin-top: 100px;
+    padding: 60px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about:hover {
+    transform: scale(1.25);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.about p {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px; 
+}
